@@ -1,0 +1,196 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#main{
+    display: flex;
+}
+#left{
+    width: 75%;
+    height: 100vh;
+}
+#right{
+    width: 25%;
+    height: 100vh;    
+}
+#left #ltop{
+    position: relative;
+    width: 100%;
+    height:70vh;
+    background-image: url(https://images.unsplash.com/photo-1466781783364-36c955e42a7f?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+#left #lbottom{
+    width: 100%;
+    height: 30vh;
+    background-color:#222;
+    color: white;
+    padding: 50px 100px;
+}
+#right #rtop{
+    display: flex;
+    position: relative;;
+    flex-direction: column;
+    padding: 70px;
+    width: 100%;
+    height: 70vh;
+    background-color:white;
+}
+#right a{
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+#bcontent{
+    display: flex;
+    justify-content: space-between;
+    width:100% ;
+    height: 30px;
+}
+#blcontent{
+    width: 45%;
+    height: 30px;
+}
+#blcontent p{
+    width:70%;
+    margin-top: 30px;
+    font-size: 12px;
+}
+#brcontent{
+    width: 45%;
+    height: 30px; 
+}
+#rtop {
+    display: flex;
+}
+#relme{
+    display: flex;
+}
+#reletext{
+    margin-left: 10px;
+}
+#row{
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#reletext h6{
+    opacity: .7;
+    font-weight: 500;
+}
+#rtop #selected::before{
+    content: "→";
+}
+#icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 30px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    justify-content:right;
+}
+#icon i{
+    font-size: 20px;
+}
+#btmflr{
+    position: absolute;
+    width: 100px;
+    height: 120px;
+    background-image: url(https://i.pinimg.com/originals/df/69/13/df6913e133869558cfd8a6d2d5cd140c.jpg);
+    bottom: 0px;
+    left: 0px;
+    background-size: cover;
+}
+#btmflr i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.413);
+    border-radius: 50%;
+    top: 60%;
+    left: 30%;
+}
+#btmdiv{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    background-color: white;
+    width: 70px;
+    height: 50px;
+    right: 0px;
+    bottom: 0px;
+}
+#btmdiv i{
+   display: flex;
+   color: white ;
+   align-items: center;
+   background-color: rgba(0, 0, 0, 0.361);
+   width: 40px;
+   height: 40px;
+   font-size: 30px;
+   border-radius: 50%;
+}
+#btmleaf{
+   
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+#btmtext
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    width: 80%;
+    height: 20%;
+}
+#right #rbottom{
+    position: relative;
+    background-image: url(https://media.istockphoto.com/id/178402901/photo/leaves-of-papaya-tree-isolated-on-blue-sky-background.jpg?s=1024x1024&w=is&k=20&c=8MkUbMlLf-_LE4X-lJEcj4lwklr4yECSeykr1V87x4U=);
+    width: 100%;
+    background-size: cover;
+    height: 30vh;
+    background-color:#dadada;
+}
+#capsule{
+    
+    position: absolute;
+    width: 90%;
+    height: 30%;
+    background-color:white;
+    left: 5%;
+    bottom: 10%;
+    border-radius:  10px ;
+}
+#capsule h2{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 15px;
+    opacity: .6;
+    font-weight: 500;
+}
+#capsule i{
+    font-size: 15px;
+    opacity: .6;
+    font-weight: 500;
+}
+#capsule p{
+    margin-left: 15px;
+    font-weight: 500;
+    margin-top: 5px;
+}
